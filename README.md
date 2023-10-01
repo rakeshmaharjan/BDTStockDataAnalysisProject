@@ -1,10 +1,10 @@
 Step #1:
-	Start zookeeper:
-	./bin/zookeeper-server-start.sh config/zookeeper.properties
-	Start server:
-	bin/kafka-server-start.sh config/server.properties
-	Create topic:
-	bin/kafka-topics.sh --create --topic stock-topic --bootstrap-server localhost:9092
+Start zookeeper:
+./bin/zookeeper-server-start.sh config/zookeeper.properties
+Start server:
+bin/kafka-server-start.sh config/server.properties
+Create topic:
+bin/kafka-topics.sh --create --topic stock-topic --bootstrap-server localhost:9092
 
 Step #2:
 	Check if the HBase Master and Region Server is running, by executing following command in terminal:
